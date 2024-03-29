@@ -1,7 +1,7 @@
 package com.mycompany.practica04;
 
 /**
- * @author Andres Le Gresley
+ * @author Andres Le Gresley - Paul Chavez
  * 
  * Esta clase sirve para modelar una carta de baraja española la cual podra 
  * ser vista desde la terminal de java.
