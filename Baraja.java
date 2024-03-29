@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * @author Andres Ferrel
+ * @authors Andres Le Gresley - Paul Chavez
  * 
  * Esta clase crea una baraja usando ArrayList de tipo carta para poder crear
  * todas las cartas necesarias que componen una baraja española.
@@ -17,6 +17,7 @@ public class Baraja {
 
     private ArrayList<CartaLogica> baraja;
 
+    //Constructor de la clase
     public Baraja() {
         baraja = new ArrayList<>();
         String[] suits = {"Oros", "Copas", "Espadas", "Bastos"};
