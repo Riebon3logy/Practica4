@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @authors Andres Ferrel - Paul Chavez
+ * @authors Andres Le Gresley - Paul Chavez
  * 
  * Esta clase modela al jugador, el cual podra recibir cartas de la baraja
  * y jugar cartas en la mesa de juego
