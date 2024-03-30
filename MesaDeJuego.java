@@ -19,6 +19,7 @@ public class MesaDeJuego {
     private ArrayList<CartaLogica> cartasEnMesa;
     private Baraja baraja;
 
+    //Constructor de la mesa de juego
     public MesaDeJuego(Baraja baraja) {
         this.cartasEnMesa = new ArrayList<>(); //ArrayList de cartas jugadas
         this.baraja = baraja;
