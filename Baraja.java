@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * @authors Andres Ferrel - Paul Chavez
+ * @authors Andres Le Gresley - Paul Chavez
  * 
  * Esta clase crea una baraja usando ArrayList de tipo carta para poder crear
  * todas las cartas necesarias que componen una baraja española.
