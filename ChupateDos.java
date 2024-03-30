@@ -14,14 +14,17 @@ import java.util.ArrayList;
  * 
  **/
 
-public class Practica04 {
+public class ChupateDos {
     
     private ArrayList<Jugador> jugadores;
     private Baraja baraja;
+    private MesaDeJuego mesa;
 
     public static void main(String[] args) {
         Baraja baraja = new Baraja();
         baraja.mezclar();
+        
+        MesaDeJuego mesa = new MesaDeJuego(baraja);
         
         Jugador jugador = new Jugador ("Andres");
         
@@ -29,6 +32,10 @@ public class Practica04 {
             jugador.tomarCartaDeBaraja(baraja);
         }
         
+        jugador.imprimirMano();
+        System.out.println(" ");
+        mesa.colocarCarta(jugador, 0);
+        mesa.mostrarCartasEnMesa();
         jugador.imprimirMano();
     }
 }
