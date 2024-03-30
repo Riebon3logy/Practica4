@@ -15,6 +15,7 @@ import java.util.Collections;
 
 public class Baraja {
 
+    //Atributo ArrayList de tipo CartaLogica el cual almacenara todas las cartas
     private ArrayList<CartaLogica> baraja;
 
     //Constructor de la clase
