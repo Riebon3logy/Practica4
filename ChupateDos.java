@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @authors Andres Ferrel - Paul Chavez
+ * @authors Andres Le Gresley - Paul Chavez
  * 
  * Esta es la clase principal, en la cual se comienza el juego y se determina la
  * cantidad de jugadores, los puntos y se involucran todas las clases creadas
