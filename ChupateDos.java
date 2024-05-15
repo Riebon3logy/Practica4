@@ -154,6 +154,7 @@ public class ChupateDos {
                         invertido = true;
                         do {
                             invertirPartida();
+                            invertirJugadores();
                         } while (invertido == true);
 
                     } else {
@@ -933,6 +934,10 @@ public class ChupateDos {
     }
 
     public void invertirJugadores() {
-        Collections.reverse(jugadores);
+        ArrayList<Jugador> nombresInvertidos = new ArrayList<>();
+        for (int i = jugadores.size() - 1; i >= 0; i--) {
+            nombresInvertidos.add(jugadores.get(i));
+        }
+        jugadores = nombresInvertidos;
     }
 }
